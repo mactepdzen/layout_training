@@ -1,0 +1,266 @@
+body {
+    background-color: whitesmoke;
+    font-family: 'Open Sans Condensed', sans-serif;
+}
+
+#topnav {
+    background-color: #343631;
+    margin: 0;
+    padding: 1% 10% 0.5% 60%;
+}
+
+#topnav a {
+    text-decoration: none;
+    color: white;
+    font-size: 15px;
+    font-weight: 700;
+    padding: 5px;
+}
+
+#topnav a:hover {
+    background-color: #b4b8b0;
+}
+
+#info-bar {
+    margin: 0;
+    background-color: #EEF2E9;
+    display: flex;
+    align-items: center;
+    border-top: 5px #b1b3ae solid;
+}
+
+#info-bar img {
+    width: 40px;
+    height: 40px;
+    margin: 8px 50px 0 60px;
+    border: none;
+}
+
+#info-bar input[type=text] {
+    padding: 6px;
+    margin-top: 8px;
+    font-size: 20px;
+    font-weight: 700;
+    font-family: 'Open Sans Condensed', sans-serif;
+    border: none;
+    outline: none;
+}
+
+#info-bar #search-container button {
+    padding: 6px 10px;
+    margin: 8px 16px 0 0;
+    background-color: #9AD353;
+    font-family: 'Open Sans Condensed', sans-serif;
+    font-size: 20px;
+    font-weight: 700;
+    color: white;
+    border: none;
+    cursor: pointer;
+    outline: none;
+}
+
+#info-bar #search-container button:hover {
+    background-color: #A4BC87;
+}
+
+main {
+    display: flex;
+}
+
+#main-nav {
+    padding-top: 1%;
+    padding-bottom: 0.5%;
+    border-bottom: 1px #d9dad7 solid;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+#main-nav a {
+    text-decoration: none;
+    padding: 5px;
+    color: #343631;
+    font-size: 17px;
+    font-weight: 700;
+}
+
+#main-nav a:hover {
+    color: #ffffff;
+    background-color: #b3dd81;
+}
+
+#book-logo {
+    display: flex;
+    flex-direction: row;
+    margin: 0.5% 9.5% 0 10%;
+}
+
+#big-book {
+    width: 80%;
+    height: 10%;
+    border: 1px solid;
+    margin-right: 1%;
+    padding: 10% 0 0 10%;
+}
+
+#small-book {
+    width: 19%;
+    height: 10%;
+    border: 1px solid;
+    padding: 10% 0 0 10%;
+}
+
+#side-nav {
+    border: 1px #d9dad7 solid;
+    width: 10%;
+    margin: 0.2% 0 0 10%;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    box-shadow: 0 0 1px #ccc;
+}
+
+#side-nav h4 {
+    margin-left: 10px;
+    margin-bottom: 5px;
+}
+
+#side-nav a {
+    text-decoration: none;
+    margin-left: 20px;
+    color: #80817e;
+}
+
+#table-books {
+    border: 1px #d9dad7 solid;
+    width: 70%;
+    margin: 0.2% 0 0 0.2%;
+    display: flex;
+    flex-direction: column;
+    box-shadow: 0 0 1px #ccc;
+}
+
+#table-books #row1 {
+    display: flex;
+    justify-content: center;
+    margin-top: 10px;
+}
+
+#row1 div {
+    margin: 15px;
+    padding: 20px;
+    border: 1px solid;
+}
+
+#table-books #row2 {
+    display: flex;
+    justify-content: center;
+    margin-top: 10px;
+}
+
+#row2 div {
+    margin: 15px;
+    padding: 20px;
+    border: 1px solid;
+}
+
+#table-books #row3 {
+    display: flex;
+    justify-content: center;
+    margin-top: 10px;
+}
+
+#row3 div {
+    margin: 15px;
+    padding: 20px;
+    border: 1px solid;
+}
+
+#table-books #row4 {
+    display: flex;
+    justify-content: center;
+    margin-top: 10px;
+}
+
+#row4 div {
+    margin: 15px;
+    padding: 20px;
+    border: 1px solid;
+}
+
+#table-books #row5 {
+    display: flex;
+    justify-content: center;
+    margin-top: 10px;
+}
+
+#row5 div {
+    margin: 15px;
+    padding: 20px;
+    border: 1px solid;
+}
+
+#nav-books {
+    margin: 20% 1% 1% 75%;
+}
+
+#nav-books a {
+    text-decoration: none;
+    font-weight: 700;
+    color: #343631;
+}
+
+#nav-books a:hover {
+    border-bottom: 2px solid #9AD353;
+}
+
+#footer-nav {
+     display: flex;
+     justify-content: center;
+     flex-direction: row;
+     background-color: #4f504d;
+     margin: 0.5% 9.5% 0 10%;
+     color: #EEF2E9;
+}
+
+#footer-nav #column1 {
+    margin-left: 5%;
+}
+
+#footer-nav #column2 {
+    margin-left: 10%;
+}
+
+#footer-nav #column3 {
+    margin-left: 10%;
+}
+
+#footer-nav #column4 {
+    margin-left: 10%;
+    margin-right: 5%;
+}
+
+#payment {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    background-color: #343631;
+    margin: 0 9.5% 0 10%;
+}
+
+#payment a {
+    text-decoration: none;
+    padding-left: 5px;
+    color: #EEF2E9;
+
+}
+
+#rights {
+    margin: 0 9.5% 0 10%;
+    display: flex;
+    justify-content: center;
+    color: #EEF2E9;
+    background-color: #343631;
+    border-top: 2px solid #80817e;
+}
+
